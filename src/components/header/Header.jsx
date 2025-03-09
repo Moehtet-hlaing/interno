@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from "../../assets/logo.svg";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
         <div className="container xl:max-w-[1200px] mx-auto flex justify-between items-center h-full">
             {/* logo */}
             <a href="#">
-                <img src="../../../assets/logo.svg" alt="" />
+                <img src={logo} alt="" />
             </a>
             <nav>
               {/* nav mobile trigger */}

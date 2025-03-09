@@ -1,4 +1,8 @@
 import React from "react";
+import newsImg1 from "../../assets/news/01.png";
+import newsImg2 from "../../assets/news/02.png";
+import newsImg3 from "../../assets/news/03.png";
+
 
 const News = () => {
   return (
@@ -16,7 +20,7 @@ const News = () => {
         {/* gird */}
         <div className="new__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px]">
           <div data-aos="fade-up" data-aos-delay="100" className="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all cursor-pointer mx-auto xl:mx-0 group">
-            <img src="../../../assets/news/01.png" alt="" />
+            <img src={newsImg1} alt="" />
             <h3 className="h3">
               Let’s Get Solution For Building Construction Work
             </h3>
@@ -29,7 +33,7 @@ const News = () => {
           </div>
 
           <div data-aos="fade-up" data-aos-delay="500" className="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all cursor-pointer mx-auto xl:mx-0 group">
-            <img src="../../../assets/news/02.png" alt="" />
+            <img src={newsImg2} alt="" />
             <h3 className="h3">Low Cost Latest Invented Interior Designing</h3>
             <div className=" flex justify-between items-center gap-[30px]">
               <p className="text-base">24 June,2024</p>
@@ -40,7 +44,7 @@ const News = () => {
           </div>
 
           <div data-aos="fade-up" data-aos-delay="900" className="news__item w-full max-w-[382px] h-[520px] border border-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all cursor-pointer mx-auto xl:mx-0 group">
-            <img src="../../../assets/news/03.png" alt="" />
+            <img src={newsImg3} alt="" />
             <h3 className="h3">Best For Any Office & Business Interior</h3>
             <div className=" flex justify-between items-center gap-[30px]">
               <p className="text-base">28 June,2024</p>

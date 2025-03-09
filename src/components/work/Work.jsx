@@ -1,4 +1,9 @@
 import React from "react";
+import workImg1 from "../../assets/work/01.png";
+import workImg2 from "../../assets/work/02.png";
+import workImg3 from "../../assets/work/03.png";
+import workImg4 from "../../assets/work/04.png";
+
 
 const Work = () => {
   return (
@@ -15,7 +20,7 @@ const Work = () => {
         {/* grid section */}
         <div data-aos="fade-up" data-aos-delay="1000" className="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[58px]">
           <div className="w-full h-full mx-auto max-w-[548px] ">
-            <img className=" mb-6" src="../../../assets/work/01.png" alt="" />
+            <img className=" mb-6" src={workImg1} alt="" />
             <div className=" flex justify-between items-center w-full">
               <div>
                 <h3 className=" h3">Modern Kitchen</h3>
@@ -28,7 +33,7 @@ const Work = () => {
           </div>
 
           <div className="w-full h-full mx-auto max-w-[548px] ">
-            <img className=" mb-6" src="../../../assets/work/02.png" alt="" />
+            <img className=" mb-6" src={workImg2} alt="" />
             <div className=" flex justify-between items-center w-full">
               <div>
                 <h3 className=" h3">Modern Kitchen</h3>
@@ -41,7 +46,7 @@ const Work = () => {
           </div>
 
           <div className="w-full h-full mx-auto max-w-[548px] ">
-            <img className=" mb-6" src="../../../assets/work/03.png" alt="" />
+            <img className=" mb-6" src={workImg3} alt="" />
             <div className=" flex justify-between items-center w-full">
               <div>
                 <h3 className=" h3">Modern Kitchen</h3>
@@ -54,7 +59,7 @@ const Work = () => {
           </div>
 
           <div className="w-full h-full mx-auto max-w-[548px] ">
-            <img className=" mb-6" src="../../../assets/work/04.png" alt="" />
+            <img className=" mb-6" src={workImg4} alt="" />
             <div className=" flex justify-between items-center w-full">
               <div>
                 <h3 className=" h3">Modern Kitchen</h3>

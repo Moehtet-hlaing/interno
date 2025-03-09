@@ -2,6 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; // Import slick styles
 import "slick-carousel/slick/slick-theme.css"; // Import slick theme styles
+import img1 from "../../assets/testimonial/01.png";
+import img2 from "../../assets/testimonial/02.png";
+import img3 from "../../assets/testimonial/03.png";
+import img4 from "../../assets/testimonial/04.png";
 
 const TestimonialSection = () => {
   var settings = {
@@ -46,7 +50,7 @@ const TestimonialSection = () => {
                 <div className="px-6 ">
                   <div className="testimonial__item w-full bg-white max-w-[450px] max-h-[340px] rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto">
                     <div className="flex gap-4 justify-center items-center mb-6">
-                      <img src="../../../assets/testimonial/01.png" alt="" />
+                      <img src={img1} alt="" />
                       <div>
                         <h3 className=" h3">Nattasha Mith</h3>
                         <div>Greenville, USA</div>
@@ -63,7 +67,7 @@ const TestimonialSection = () => {
                 <div className="px-6 ">
                   <div className="testimonial__item w-full bg-white max-w-[450px] max-h-[340px] rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto">
                     <div className="flex gap-4 justify-center items-center mb-6">
-                      <img src="../../../assets/testimonial/02.png" alt="" />
+                      <img src={img2} alt="" />
                       <div>
                         <h3 className=" h3">Jessica White</h3>
                         <div>Oak Ridge, USA</div>
@@ -80,7 +84,7 @@ const TestimonialSection = () => {
                 <div className="px-6 ">
                   <div className="testimonial__item w-full bg-white max-w-[450px] max-h-[340px] rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto">
                     <div className="flex gap-4 justify-center items-center mb-6">
-                      <img src="../../../assets/testimonial/03.png" alt="" />
+                      <img src={img3} alt="" />
                       <div>
                         <h3 className=" h3">Mike Davis</h3>
                         <div>Berlin, Germany</div>
@@ -97,7 +101,7 @@ const TestimonialSection = () => {
                 <div className="px-6 ">
                   <div className="testimonial__item w-full bg-white max-w-[450px] max-h-[340px] rounded-[30px] flex flex-col justify-center items-center p-9 mx-auto">
                     <div className="flex gap-4 justify-center items-center mb-6">
-                      <img src="../../../assets/testimonial/04.png" alt="" />
+                      <img src={img4} alt="" />
                       <div>
                         <h3 className=" h3">Olivia Wilson</h3>
                         <div>Blue Ridge, France</div>

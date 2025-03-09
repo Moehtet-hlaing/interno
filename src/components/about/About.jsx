@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImg from "../../assets/about/img.png"
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
           </div>
           {/* img section */}
           <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" className="max-w-[453px] order-1 xl:order-none mx-auto xl:max-w-none xl:mx-auto">
-            <img src="../../../assets/about/img.png" alt="" />
+            <img src={aboutImg} alt="" />
           </div>
         </div>
       </div>
