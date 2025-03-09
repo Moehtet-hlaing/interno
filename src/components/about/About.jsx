@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mx-auto max-w-[1200px] xl:p-0">
         <div className=" flex flex-col xl:flex-row justify-between items-center text-center xl:text-left gap-8 xl:gap-[74px] ">
           {/* text section */}
-          <div className="about__img order-2 xl:order-none flex-1 max-w-xl xl:max:w-[410px] flex flex-col items-center xl:items-start gap-8">
+          <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" className="about__img order-2 xl:order-none flex-1 max-w-xl xl:max:w-[410px] flex flex-col items-center xl:items-start gap-8">
             <h2 className="h2">
               We Create The Art Of Stylish Living Stylishly
             </h2>
@@ -30,7 +30,7 @@ const About = () => {
                 </button>
           </div>
           {/* img section */}
-          <div className="max-w-[453px] order-1 xl:order-none mx-auto xl:max-w-none xl:mx-auto">
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" className="max-w-[453px] order-1 xl:order-none mx-auto xl:max-w-none xl:mx-auto">
             <img src="../../../assets/about/img.png" alt="" />
           </div>
         </div>

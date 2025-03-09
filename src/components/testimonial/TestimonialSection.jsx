@@ -36,10 +36,10 @@ const TestimonialSection = () => {
 
   return (
     <section className="testimonial mt-[80px] xl:mt-[200px] relative z-20">
-      <div className="testimonial__bg container mx-auto max-w-[1200px] bg-accent-secondary rounded-[70px] px-6">
+      <div data-aos="fade-up" data-aos-delay="100" className="testimonial__bg container mx-auto max-w-[1200px] bg-accent-secondary rounded-[70px] px-6">
         <div className=" flex flex-col justify-center items-center py-[73px]">
-          <h2 className=" testimonial__title h2 mb-9 text-center"> What clients say</h2>
-          <div className="w-full">
+          <h2 data-aos="fade-up" data-aos-delay="500" className=" testimonial__title h2 mb-9 text-center"> What clients say</h2>
+          <div  data-aos="fade-up" data-aos-delay="1000" className="w-full">
             <div className=" h-[400px]">
               <Slider {...settings} className="pb-8">
                 {/* Slide 1 */}

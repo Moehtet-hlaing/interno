@@ -6,14 +6,14 @@ const Work = () => {
       <div className="container mx-auto max-w-[1200px]">
         {/* text section */}
         <div className="text-center mb-24">
-          <h2 className="h2 work__title mb-4">Follow Our Projects</h2>
-          <p className="work__subtitle max-w-3xl mx-auto">
+          <h2 data-aos="fade-up" data-aos-delay="100" className="h2 work__title mb-4">Follow Our Projects</h2>
+          <p data-aos="fade-up" data-aos-delay="300" className="work__subtitle max-w-3xl mx-auto">
             It is a long established fact that a reader will be distracted by
             the of readable content of page lookings at its layouts points.
           </p>
         </div>
         {/* grid section */}
-        <div className="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[58px]">
+        <div data-aos="fade-up" data-aos-delay="1000" className="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[58px]">
           <div className="w-full h-full mx-auto max-w-[548px] ">
             <img className=" mb-6" src="../../../assets/work/01.png" alt="" />
             <div className=" flex justify-between items-center w-full">

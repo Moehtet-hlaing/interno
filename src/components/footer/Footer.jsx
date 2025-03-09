@@ -5,7 +5,7 @@ const Footer = () => {
     <section className=" footer mt-[80px] xl:mt-[200px] relative z-20">
       <div className="container max-w-[1200px] mx-auto p-0">
         {/* left div */}
-        <div className=" flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
+        <div data-aos="fade-up" data-aos-delay="100" className=" flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
           <div className="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left">
             {/* logo */}
             <a
@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* right div */}
           <div className="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end ">
-            <div className="footer__item">
+            <div data-aos="fade-up" data-aos-delay="300" className="footer__item">
               <h3 className="h3 mb-3">Pages</h3>
               <ul className="flex flex-col gap-4">
                 <li>
@@ -70,7 +70,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="footer__item">
+            <div data-aos="fade-up" data-aos-delay="500" className="footer__item">
               <h3 className="h3 mb-3">Services</h3>
               <ul className="flex flex-col gap-4">
                 <li>
@@ -88,7 +88,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="footer__item max-w-[260px] mx-auto xl:mx-0">
+            <div data-aos="fade-up" data-aos-delay="700" className="footer__item max-w-[260px] mx-auto xl:mx-0">
               <h3 className="h3 mb-3">Contact</h3>
               <div className="flex flex-col gap-6 text-[20px]">
                 <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>

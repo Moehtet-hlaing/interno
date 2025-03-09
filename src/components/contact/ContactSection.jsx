@@ -3,7 +3,7 @@ import React from 'react'
 const ContactSection = () => {
   return (
     <section className='contact mt-[80px] xl:mt-[200px] relative z-20'>
-        <div className="contact__container container mx-auto max-w-[1200px] bg-primary  sm:rounded-[70px] py-[80px]">
+        <div data-aos="fade-up" className="contact__container container mx-auto max-w-[1200px] bg-primary  sm:rounded-[70px] py-[80px]">
             <div className="contact__text text-center max-w-[640px] mx-auto">
               <h2 className="h2 text-white mb-4">
               Do you want to join Interno?

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import HeroSection from './components/hero/HeroSection'
 import GridImage from './components/hero/GridImage'
 import Header from './components/header/Header'
@@ -13,9 +15,31 @@ import ContactSection from './components/contact/ContactSection'
 import Footer from './components/footer/Footer'
 
 const App = () => {
+  // useEffect(() => {
+  //   console.log("AOS");
+  //   AOS.init({
+  //     duration: 800, // Smooth and slower animation
+  //     offset: 0, // Starts later in the viewport
+  //     easing: 'ease-in-sine',
+  //     once: false,
+  //   });
+  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      offset: 100,
+      easing: "ease-in-out",
+      once: false,
+    });
+  
+    setTimeout(() => {
+      AOS.refreshHard(); // Force refresh animations
+    }, 1000);
+  }, []);
+  
   return (
-    // page wrapper
-    <main className='max-w-[1920px] mx-auto bg-white'>
+
+<main className='max-w-[1920px] mx-auto bg-white'>
       <Header />
       <GridImage />
       <HeroSection />
