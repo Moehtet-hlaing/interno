@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/logo.svg";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
               href="#"
               className=" flex justify-center items-center xl:justify-start mb-8"
             >
-              <img src="../../../assets/logo.svg" alt="" />
+              <img src={logo} alt="" />
             </a>
             <p className=" mb-8 text-xl">
               It is a long established fact that a reader will be distracted
